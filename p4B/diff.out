@@ -1,0 +1,12 @@
+148c148
+< M 7ff000388,4 hit hit 
+---
+> M 7ff000388,4 miss eviction hit 
+200c200
+< M 7ff000388,4 hit hit 
+---
+> M 7ff000388,4 miss eviction hit 
+219c219
+< hits:213 misses:25 evictions:16
+---
+> hits:211 misses:27 evictions:18

@@ -1,0 +1,18 @@
+
+int doubleIt(int x) {
+	return x + x;
+}
+
+<doubleIt>
+	pushl %ebp
+	movl %esp, %ebp
+	pushl %ebx
+	pushl %esi
+	movl (%esp), %ecx
+	addl %ecx, %ecx
+	movl %ecx, $eax
+	popl %ecx
+	popl %ebx
+	leave
+	ret
+
